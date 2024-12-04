@@ -2,13 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test Project</title>
+    <title>My Project</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; }
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; line-height: 1.6; }
+        header { background-color: #f4f4f4; padding: 20px; text-align: center; }
+        nav { background-color: #333; color: white; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin-right: 15px; }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Test Project</h1>
-    <p>This is a simple HTML page.</p>
+    <header>
+        <h1>Welcome to My Test Project</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is a simple project demonstrating basic HTML and CSS.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>A minimal example of web development basics.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out!</p>
+        </section>
+    </main>
 </body>
 </html>
